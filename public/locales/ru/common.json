@@ -1,0 +1,7 @@
+{
+    "navbarList" : [
+        {"title": "Главная", "link": "/"},
+        {"title": "Наши Отели", "link": "/hotels"},
+        {"title": "Ваучеры", "link": "/coupons"}
+    ]
+}

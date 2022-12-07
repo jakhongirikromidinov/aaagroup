@@ -1,0 +1,7 @@
+{
+    "navbarList": [
+        {"title": "Main", "link": "/"},
+        {"title": "Our Hotels", "link": "/hotels"},
+        {"title": "Vouchers", "link": "/coupons"}
+    ]
+}

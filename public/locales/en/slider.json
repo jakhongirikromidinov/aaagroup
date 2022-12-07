@@ -1,0 +1,23 @@
+{
+    "samarkand_suptitle": "Tour program (1 day)",
+    "samarkand_title": "“Tashkent – ​​Samarkand – Tashkent”",
+    "samarkand": "<li>Departure at 05:00. Arrival at 10:00.</li><li>Visit to <span>the mausoleum of Imam Al Bukhari.</spam></li> <li>Visit to <span>Mirza Ulugbek Observatory.</span></li><li>Visit to <span>the mausoleum of Khoja Doniyor.</span></li><li>Visit <span>to the Shakhi Zinda monument and the mausoleum of I.A. Karimov</span></li><li>Lunch at a local establishment.</li><li>Visiting <span>Gur-Emir Mausoleum.</span></li><li>Visiting <span>the Registan Square</span>.</li><li>Departure at 17:40. Arrival in Tashkent at 22:00.</li>",
+
+    
+    "tashkent_suptitle": " Tour program (1 day)",
+    "tashkent_title": "Tashkent - Sukak - Zarkent - Kumushkan - Tashkent",
+    "tashkent": "<li>Departure at 05:00</li> <li>Excursion in <span>Sukak</span></li> <li>Excursion in the memorial complex <span>“Zarkent buva”</span></li> <li>Light lunch at the cottage in <span>Kumyshkan</span> (11:45 – 12:20)</li> <li>Excursion (hike) in the mountains of <span>Kumyshkan</span> . Visit to the memorial complex <span>“Khazrati Ali Buva”</span></li> <li>Dinner. (16:10 – 17:00)</li> <li>Free time (swimming, hiking, etc.) (17:00 – 19:00)</li> <li>Departure to Tashkent at 19:10. Arrival at 22:00</li>",
+    "bukhara": {
+        "bukhara_suptitle": "Tour program for 3 days/2 nights",
+        "bukhara_title": "Tashkent - Samarkand - Bukhara - Tashkent",
+
+        "day_1_title": "Day 1",
+        "day_1_schedule": "<li>Departure at 05:00. Arrival at 10:00</li> <li>Visit to <span>the mausoleum of Imam Al Bukhari</span></li> <li>Visit to <span>Mirza Ulugbek Observatory</span></li> <li>Visit to <span>the mausoleum of Khoja Doniyor</span></li> <li>Visit <span>to the Shakhi Zinda monument and the mausoleum of I.A. Karimov</span></li> <li>Lunch at a local establishment</li> <li>Visiting <span>Gur-Emir Mausoleum</span></li> <li>Visiting <span>the Registan Square</span></li><li>Check-in at the hotel at 19:00. Overnight at the hotel.</li>",
+
+        "day_2_title": "Day 2",
+        "day_2_schedule": "<li>Breakfast at the hotel. Departure to Bukhara at 09:00</li> <li>Arrival in Bukhara at 13:00</li> <li>Lunch at a local establishment</li> <li>Excursion around Bukhara Visiting historical sights such as: <ul> <li>-Winter residence of the rulers of Bukhara Ark Citadel.</li> <li>-Mausoleum of Ismail Samani.</li> <li>-Mausoleum of Chashma Ayub</li> <li>-Poly-Kalyan Ensemble: Kalyan Minaret, Kalyan Mosque, Miri-Arab Madrassah</li> <li>-Summer residence Sitorai Mokhi Khosa Palace </li> <li>-Trading domes</li> <li>-Lyabi-Khaus Ensemble</li> <li>-Chor-Minor Madrasah</li></ul></li><li>Dinner at a local establishment. Accommodation in a hotel. Overnight at the hotel</li>",
+
+        "day_3_title": "Day 3",
+        "day_3_schedule": "<li>Breakfast at the hotel.</li> <li>Continuation of excursions in Bukhara</li> <li>Lunch at a local establishment</li> <li>Departure to Tashkent at 15:00. Arrival in Tashkent at 22:00</li>"
+    }
+}

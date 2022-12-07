@@ -1,0 +1,27 @@
+{
+    "suptitle": "Narxlar",
+    "title": "Avtomobillar ro‘yxati",
+
+    "table_header": [
+        "№", "Transport nomi", "O‘rindiqlar soni", "Narxi (1 kishi uchun)"
+    ],
+    "row_1": ["1", "“Hyundai” mikroavtobusi", "7-10", ""],
+    "row_2": ["2", "“Istana” mikroavtobusi", "14", "602.000-628.000"],
+    "row_3": ["3", "“Ford” mikroavtobusi; “Sprinter” (TV + Konditsioner)", "17-18", "600.000-620.000"],
+    "row_4": ["4", "Zamonaviy avtobuslar", "50", "576.000"],
+
+    "vehicle_slider_title": "Transport haqida:",
+
+    "ford_van": [
+        "Model: “Ford” mikroavtobusi", "O‘rindiqlar soni: 17-18", "Narxi (1 kishi uchun): 600.000-620.000 UZS"
+    ],
+    "istana_van": [
+        "Model: “Istana” mikroavtobusi", "O‘rindiqlar soni: 14", "Narxi (1 kishi uchun): 602.000-628.000 UZS"
+    ],
+    "hyundai_van": [
+        "Model: “Hyundai” mikroavtobusi", "O‘rindiqlar soni: 7-10", "Narxi (1 kishi uchun):"
+    ],
+    "modern_bus": [
+        "Model: Zamonaviy avtobuslar", "O‘rindiqlar soni: 50", "Narxi (1 kishi uchun): 576.000 UZS"
+    ]
+}

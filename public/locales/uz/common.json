@@ -1,0 +1,7 @@
+{
+    "navbarList" : [
+        {"title": "Bosh Sahifa", "link": "/"},
+        {"title": "Mehmonxonalar", "link": "/hotels"},
+        {"title": "Vaucherlar", "link": "/coupons"}
+    ]
+}
