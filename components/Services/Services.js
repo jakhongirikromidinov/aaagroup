@@ -9,6 +9,7 @@ import StyledServices, {
 	Cards,
 	CardItem,
 	ImageWrapper,
+	MobileContent,
 } from "./Services.styled";
 import { Container } from "../Common/Common.styled";
 

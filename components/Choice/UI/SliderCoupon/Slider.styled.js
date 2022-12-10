@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const SwiperWrapper = styled.div`
-	height: 30vh;
+	height: 410px;
+	padding-top: 5rem;
 	.swiper {
 		width: 100%;
 		height: 100%;
@@ -24,8 +25,6 @@ export const SwiperWrapper = styled.div`
 		align-items: center;
 	}
 	.swiper-slide-active {
-		scale: 1.2;
-		transition: 0.6s ease-in-out;
 		@media screen and (max-width: 500px) {
 			scale: unset;
 		}

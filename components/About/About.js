@@ -9,7 +9,7 @@ import StyledAbout, {
 	Suptitle,
 	Title,
 	Text,
-} from "./About.style";
+} from "./About.styled";
 
 import { Container } from "../Common/Common.styled";
 

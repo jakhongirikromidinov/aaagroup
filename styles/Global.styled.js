@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
 		--labelGradient: rgba(239, 93, 93, 1);
 		--swiper-theme-color: var(--accent);
 
-		--italicFont: 'Island Moments', cursive;
+		--italicFont: 'Caveat', cursive;
 		--cirillicItalicFont: 'Bad Script', cursive;
 	}
 	*,
@@ -78,6 +78,9 @@ const GlobalStyle = createGlobalStyle`
 	}
 	p {
 		line-height: 145%;
+	}
+	.swiper-pagination-bullet {
+		font-family: "Montserrat", sans-serif;
 	}
 `;
 

@@ -5,17 +5,16 @@ const StyledExperience = styled.section`
 `;
 
 export const Content = styled.div`
-	padding: 5rem 0;
+	padding-top: 5rem;
 	padding-bottom: 7rem;
 	display: flex;
 	justify-content: space-between;
+	@media screen and (max-width: 1000px) {
+		display: none;
+	}
+
 	@media screen and (max-width: 1050px) {
 		gap: 5rem;
-	}
-	@media screen and (max-width: 850px) {
-		flex-direction: column;
-		align-items: center;
-		gap: 6.5rem;
 	}
 `;
 
@@ -32,8 +31,6 @@ export const SupTitle = styled.label`
 	margin-bottom: 1.2rem;
 	display: inline-block;
 	font-family: var(--italicFont);
-	font-family: ${({ lang }) =>
-		lang === "ru" ? "var(--cirillicItalicFont)" : "var(--italicFont)"};
 	border-radius: 24px;
 	padding: 0rem 0.9rem;
 	background: var(--accent);
@@ -45,7 +42,7 @@ export const SupTitle = styled.label`
 		top: -20px;
 		right: -100px;
 	}
-	@media screen and (max-width: 850px) {
+	@media screen and (max-width: 1000px) {
 		width: unset;
 		margin-top: unset;
 	}
@@ -107,7 +104,7 @@ export const FeaturesItem = styled.div`
 			width: 8rem;
 			height: 4rem;
 			font-size: ${({ lang }) =>
-			lang === "uz" || lang === "ru" ? "1.4rem" : "2rem"};
+				lang === "uz" || lang === "ru" ? "1.4rem" : "2rem"};
 		}
 	}
 `;
@@ -177,5 +174,25 @@ export const LocationIcon = () => {
 		</svg>
 	);
 };
+
+export const MobileContent = styled.div`
+	display: none;
+	@media screen and (max-width: 1000px) {
+		padding: 5rem;
+		display: flex;
+		gap: 3rem;
+		flex-direction: column;
+		align-items: center;
+	}
+`;
+
+export const MobileHeader = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h2 {
+		text-align: center;
+	}
+`;
 
 export default StyledExperience;

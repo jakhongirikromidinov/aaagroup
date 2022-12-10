@@ -23,54 +23,32 @@ export const Content = styled.div`
 	}
 `;
 
-export const SectionHeader = styled.div``;
+export const SectionHeader = styled.div`
+	@media screen and (max-width: 1000px) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+`;
 
 export const SupTitle = styled.label`
 	position: relative;
-
-	color: var(--labelGradient);
+	margin-bottom: 1.2rem;
+	display: inline-block;
 	font-family: var(--italicFont);
+	border-radius: 24px;
+	padding: 0rem 0.9rem;
+	background: var(--accent);
 	font-size: 2.4rem;
-	::before {
-		content: "";
-
-		position: absolute;
-		top: -4px;
-		left: -60px;
-
-		background: url("/images/services_star_icon.png") center center / cover
-			no-repeat;
-
-		width: 4.2rem;
-		height: 4.2rem;
-	}
-	@media screen and (max-width: 1000px) {
-		font-size: 3rem;
-		margin-bottom: 2rem;
-		display: block;
-		text-align: center;
-		::before {
-			left: 80px;
-			width: 2.4rem;
-			height: 2.4rem;
-		}
-	}
-	@media screen and (max-width: 600px) {
-		font-size: 1.6rem;
-		margin-bottom: unset;
-		text-align: left;
-		::before {
-			left: 40px;
-		}
-	}
+	font-weight: 400;
 `;
 
 export const Title = styled.h2`
 	font-size: 2.4rem;
 	font-weight: 500;
-	/* min-width: 26.8rem; */
 	@media screen and (max-width: 1000px) {
 		max-width: unset;
+		text-align: center;
 		font-size: 3rem;
 		margin-bottom: 2rem;
 	}
@@ -92,16 +70,6 @@ export const Cards = styled.div`
 	width: 70%;
 	position: relative;
 	gap: 2rem;
-	::after {
-		content: url("/images/services_arrow_down_icon.png");
-		position: absolute;
-		background: none;
-		display: block;
-		top: 135px;
-		right: -56px;
-		width: unset;
-		height: unset;
-	}
 	@media screen and (max-width: 1000px) {
 		flex-direction: column;
 		align-items: center;

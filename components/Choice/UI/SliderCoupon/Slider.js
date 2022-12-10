@@ -6,50 +6,18 @@ import { Autoplay } from "swiper";
 import { Pagination } from "swiper";
 import Image from "next/legacy/image";
 
-const Slider = () => {
+const SliderCoupon = () => {
 	return (
 		<SwiperWrapper>
 			<Swiper
 				modules={[Autoplay, Pagination]}
 				className="mySwiper"
-				autoplay={{ delay: 3500, disableOnInteraction: false }}
+				direction={"vertical"}
+				// autoplay={{ delay: 3500, disableOnInteraction: false }}
 				loop={true}
-				centeredSlides={true}
 				initialSlide={1}
-				pagination={{
-					dynamicBullets: true,
-					clickable: true,
-				}}
-				breakpoints={{
-					300: {
-						slidesPerView: 1,
-						centeredSlides: true,
-					},
-					770: {
-						slidesPerView: 1.9,
-						spaceBetween: 110,
-					},
-					870: {
-						slidesPerView: 2.1,
-						spaceBetween: 110,
-					},
-					970: {
-						slidesPerView: 2.4,
-						spaceBetween: 140,
-					},
-					1070: {
-						slidesPerView: 2.6,
-						spaceBetween: 180,
-					},
-					1170: {
-						slidesPerView: 2.8,
-						spaceBetween: 150,
-					},
-					1270: {
-						slidesPerView: 3,
-						spaceBetween: 130,
-					},
-				}}
+				slidesPerView={2}
+				spaceBetween={15}
 			>
 				<SwiperSlide>
 					<SwiperSlideItem>
@@ -91,4 +59,4 @@ const Slider = () => {
 	);
 };
 
-export default Slider;
+export default SliderCoupon;

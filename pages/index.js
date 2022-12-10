@@ -6,8 +6,8 @@ import Experience from "../components/Experience/Experience";
 import About from "../components/About/About";
 import Info from "../components/Info/Info";
 import Opportunities from "../components/Opportunities/Opportunities";
-import Prices from "../components/Prices/Prices";
-import Coupon from "../components/Coupon/Coupon";
+import Choice from "../components/Choice/Choice";
+import InfoNew from "../components/InfoNew/Info";
 
 export default function Home() {
 	return (
@@ -16,10 +16,10 @@ export default function Home() {
 			<Services />
 			<Experience />
 			<About />
-			<Info />
-			<Opportunities />
-			<Prices />
-			<Coupon />
+			{/* <Info /> */}
+			<InfoNew />
+			{/* <Opportunities /> */}
+			<Choice />
 		</>
 	);
 }
@@ -38,6 +38,7 @@ export async function getStaticProps({ locale }) {
 				"prices",
 				"footer",
 				"coupon",
+				"choice",
 			])),
 		},
 	};

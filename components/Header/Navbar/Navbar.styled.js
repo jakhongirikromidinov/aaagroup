@@ -5,6 +5,11 @@ const StyledNavbar = styled.nav`
 	top: 0;
 	left: 0;
 	width: 100%;
+	@media screen and (max-width: 1000px) {
+		position: fixed;
+		z-index: 999999;
+		background: var(--bgColor);
+	}
 `;
 
 export const Content = styled.div`

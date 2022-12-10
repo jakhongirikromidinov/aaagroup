@@ -1,14 +1,7 @@
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/dist/client/router";
 import Image from "next/legacy/image";
-
-import {
-	LocationIcon,
-	CalendarIcon,
-	GuestIcon,
-	ChevronIcon,
-	SearchIcon,
-} from "./Banner.styled";
+import parse from "html-react-parser";
 
 import StyledBanner, {
 	Content,
@@ -17,11 +10,10 @@ import StyledBanner, {
 	SupTitle,
 	Title,
 	Subtitle,
-	SearchBar,
-	SearchBarItem,
-	SearchBarItemInner,
-	CitySelector,
-	SearchIconWrapper,
+	Form,
+	FormLabel,
+	FormInput,
+	FormSubmitInput,
 	ImageWrapper,
 	DotsPosition,
 } from "./Banner.styled";
@@ -32,47 +24,23 @@ import { Container } from "../Common/Common.styled";
 const Banner = () => {
 	const { t } = useTranslation("banner");
 	const router = useRouter();
+
+	const parsedTitle = t("title");
 	return (
 		<StyledBanner>
 			<Container>
 				<Content>
 					<Main>
 						<SupTitle>{t("supTitle")}</SupTitle>
-						<Title>{t("title")}</Title>
+						<Title>{parse(parsedTitle)}</Title>
 						<Subtitle>{t("subtitle")}</Subtitle>
 
-						<SearchBar>
-							<SearchBarItem>
-								<LocationIcon />
-								<SearchBarItemInner>
-									<label>{t("LocationLabel")}</label>
-									<CitySelector lang={router.locale}>
-										{t("LocationAddress")}
-										<ChevronIcon />
-									</CitySelector>
-								</SearchBarItemInner>
-							</SearchBarItem>
-
-							<SearchBarItem>
-								<CalendarIcon />
-								<SearchBarItemInner>
-									<label>{t("DateLabel")}</label>
-									<div>
-										<input type="date" />
-									</div>
-								</SearchBarItemInner>
-							</SearchBarItem>
-
-							<SearchBarItem>
-								<GuestIcon />
-								<SearchBarItemInner>
-									<label>{t("GuestLabel")}</label>
-								</SearchBarItemInner>
-								<SearchIconWrapper>
-									<SearchIcon />
-								</SearchIconWrapper>
-							</SearchBarItem>
-						</SearchBar>
+						{/* <Form>
+							<FormLabel>Biz bilan boglanish</FormLabel>
+							<FormInput type="text" placeholder="Ism"></FormInput>
+							<FormInput type="text" placeholder="Raqam"></FormInput>
+							<FormSubmitInput type="submit" value="Yakunlash"/>
+						</Form> */}
 					</Main>
 
 					<Images>
