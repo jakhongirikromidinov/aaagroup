@@ -3,14 +3,13 @@ import styled from "styled-components";
 const StyledMobileSlider = styled.section`
 	position: relative;
 	overflow: hidden;
-	min-height: 100vh;
+	padding: 5rem 0;
 	@media screen and (min-width: 700px) {
 		display: none;
 	}
 `;
 
 export const Content = styled.div`
-	padding-top: 5rem;
 	display: flex;
 	flex-direction: column;
 `;
@@ -136,8 +135,8 @@ export const InnerContentWrapper = styled.div`
 export const Suptitle = styled.label`
 	font-size: 2rem;
 	font-weight: 500;
-    display: block;
-    text-align: center;
+	display: block;
+	text-align: center;
 	margin-bottom: 0.65rem;
 `;
 export const Title = styled.h3`

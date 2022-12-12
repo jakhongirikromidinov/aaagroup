@@ -4,6 +4,7 @@ import StyledChoice, {
 	Right,
 	SupTitle,
 	Title,
+	SectionHeader,
 } from "./Choice.styled";
 import SliderCoupon from "./UI/SliderCoupon/Slider";
 import SliderPrices from "./UI/SliderPrices/SliderPrices";
@@ -21,9 +22,11 @@ const Choice = () => {
 	return (
 		<StyledChoice>
 			<Container>
-				<Content>
+				<SectionHeader>
 					<SupTitle>{translate("label")}</SupTitle>
 					<Title>{translate("title")}</Title>
+				</SectionHeader>
+				<Content>
 					<Left>{isLoaded && <SliderCoupon />}</Left>
 					<Right>{isLoaded && <SliderPrices />}</Right>
 				</Content>

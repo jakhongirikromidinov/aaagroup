@@ -79,6 +79,9 @@ const GlobalStyle = createGlobalStyle`
 	p {
 		line-height: 145%;
 	}
+	button {
+		font-family: 'Montserrat';
+	}
 	.swiper-pagination-bullet {
 		font-family: "Montserrat", sans-serif;
 	}

@@ -34,13 +34,6 @@ const Banner = () => {
 						<SupTitle>{t("supTitle")}</SupTitle>
 						<Title>{parse(parsedTitle)}</Title>
 						<Subtitle>{t("subtitle")}</Subtitle>
-
-						{/* <Form>
-							<FormLabel>Biz bilan boglanish</FormLabel>
-							<FormInput type="text" placeholder="Ism"></FormInput>
-							<FormInput type="text" placeholder="Raqam"></FormInput>
-							<FormSubmitInput type="submit" value="Yakunlash"/>
-						</Form> */}
 					</Main>
 
 					<Images>

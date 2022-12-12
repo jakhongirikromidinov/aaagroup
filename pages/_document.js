@@ -33,29 +33,26 @@ export default class MyDocument extends Document {
 			<Html lang="ru">
 				<Head>
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
-					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
 					<link
 						href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
 						rel="stylesheet"
 					/>
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
-					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-					<link
-						href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap"
-						rel="stylesheet"
-					/>
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
-					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
 					<link
 						href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
 						rel="stylesheet"
 					/>
 					<link rel="preconnect" href="https://fonts.googleapis.com" />
-					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
 					<link
 						href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
 						rel="stylesheet"
 					/>
+					<link rel="icon" type="image/x-icon" href="/images/favicon.png"></link>
 				</Head>
 				<body>
 					<Main />

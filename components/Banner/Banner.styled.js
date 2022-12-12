@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const StyledBanner = styled.section`
+	padding: 5rem 0;
 	overflow: hidden;
 	background: url("/images/banner_bg.png") top 100px left 60px no-repeat,
 		var(--bgColor);
@@ -10,7 +11,6 @@ export const Content = styled.div`
 	display: flex;
 	gap: 2.8rem;
 	align-items: center;
-	padding-bottom: 10rem;
 	@media screen and (max-width: 1000px) {
 		flex-direction: column;
 		align-items: center;
@@ -18,7 +18,7 @@ export const Content = styled.div`
 	}
 `;
 export const Main = styled.div`
-	margin-top: 24.4rem;
+	margin-top: 14.4rem;
 	width: 50%;
 	@media screen and (max-width: 1000px) {
 		margin-top: 15rem;

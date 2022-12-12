@@ -1,11 +1,10 @@
 {
-    "title": "Sizning imtiyozlaringiz:",
-    "opportunities": [
-        "- 7 yoshgacha bo'lgan bolalar bepul",
-        "- Professional rahbar",
-        "- Barcha xizmatlar litsenziyalangan va sertifikatlangan",
-        "- Har qanday to'lov shakli",
-        "- Pensionerlar uchun 15% chegirma"
-    ],
-    "subtitle": "!Eslatma : ko'rsatilgan narxlar o'zgarishi mumkin."
+    "suptitle": "Yoqimli bonuslar",
+    "title": "Bizda ajoyib imkoniyatlar mavjud!",
+    "subtitle": "! Eslatma: Narxga oziq-ovqat va shaxsiy harajatlar kiritilmaydi. <span></span>Koʻrsatilgan narxlar oʻzgarishi mumkin.",
+
+    "card_1": "Har qanday to‘lov usuli mavjud",
+    "card_2": "7 yoshgacha bo‘lgan bolalarga bepul",
+    "card_3": "Professional gid",
+    "card_4": "Pensionerlar uchun 15% chegirma mavjud"
 }

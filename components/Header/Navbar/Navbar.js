@@ -22,7 +22,7 @@ import Sidebar from "./UI/Sidebar";
 import { Slant as Hamburger } from "hamburger-react";
 
 const Navbar = () => {
-	const { t } = useTranslation("common");
+	const { t } = useTranslation();
 
 	const router = useRouter();
 
@@ -51,7 +51,7 @@ const Navbar = () => {
 						/>
 					</NavbarLogo>
 					<NavbarList>
-						{t("navbarList", { returnObjects: true }).map((item, index) => (
+						{t("common:navbarList", { returnObjects: true }).map((item, index) => (
 							<li
 								key={index}
 								className={router.pathname === item.link ? "bold" : ""}

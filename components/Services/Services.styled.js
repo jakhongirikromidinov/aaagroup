@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 const StyledServices = styled.section`
+	padding: 5rem 0;
 	background: var(--bgColor);
 	position: relative;
 	z-index: 0;
-	min-height: 40vh;
+	min-height: 400px;
 	@media screen and (max-width: 1000px) {
 		min-height: unset;
 		padding: 5rem 0;
@@ -14,7 +15,6 @@ const StyledServices = styled.section`
 export const Content = styled.div`
 	display: flex;
 	gap: 0.8rem;
-	padding-top: 5rem;
 	@media screen and (max-width: 1000px) {
 		padding: 0 2.4rem;
 		flex-direction: column;
@@ -51,8 +51,6 @@ export const Title = styled.h2`
 		text-align: center;
 		font-size: 3rem;
 		margin-bottom: 2rem;
-	}
-	@media screen and (max-width: 600px) {
 	}
 `;
 

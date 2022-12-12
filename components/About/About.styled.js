@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 const StyledAbout = styled.section`
+	background: var(--bgColor);
+	padding: 5rem 0;
 	@media screen and (max-width: 1000px) {
 		padding-top: 5rem;
 	}
@@ -9,11 +11,9 @@ const StyledAbout = styled.section`
 export const Content = styled.div`
 	display: flex;
 	align-items: center;
-	padding: 1rem;
 	gap: 6rem;
 	@media screen and (max-width: 1000px) {
 		flex-direction: column;
-		padding: 1rem;
 		gap: 3.7rem;
 	}
 `;

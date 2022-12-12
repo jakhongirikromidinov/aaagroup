@@ -1,11 +1,15 @@
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Banner from "../components/Banner/Banner";
 
+import Gallery from "../components/HotelsPage/Gallery/Gallery";
+
+import { Layout } from "../components/Common/Common";
+
 const Hotels = () => {
 	return (
-		<>
-			<Banner />
-		</>
+		<Layout>
+			<Gallery />
+		</Layout>
 	);
 };
 export async function getStaticProps({ locale }) {

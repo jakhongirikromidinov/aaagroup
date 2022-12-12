@@ -1,48 +1,58 @@
+import { useTranslation } from "next-i18next";
+
+import parse from "html-react-parser";
+
 import StyledOpportunities, {
 	Content,
-	Main,
+	MainTop,
+	MainHeader,
+	Suptitle,
 	Title,
-	OpportunitiesImage,
-	OpportunitiesHatImage,
-	List,
+	Subtitle,
+	MainBottom,
+	CardsWrapper,
 } from "./Opportunities.styled";
+
+import Card from "./UI/Card";
+
 import { Container } from "../Common/Common.styled";
-import { useTranslation } from "next-i18next";
-import Image from "next/legacy/image";
 
 const Opportunities = () => {
-	const { t } = useTranslation("opportunities");
+	const { t: translate } = useTranslation("opportunities");
+
+	const parsedSubtitle = translate("subtitle");
 	return (
 		<StyledOpportunities>
 			<Container>
 				<Content>
-					<Main>
-						<Title>{t("title")}</Title>
-						<List>
-							{t("opportunities", { returnObjects: true }).map(
-								(item, index) => (
-									<li key={index}>{item}</li>
-								)
-							)}
-							<li>{t("subtitle")}</li>
-						</List>
-					</Main>
-					<OpportunitiesImage>
-						<Image
-							src="/images/opportunities_image.png"
-							width={537}
-							height={533}
-							quality={100}
+					<MainTop>
+						<MainHeader>
+							<Suptitle>{translate("suptitle")}</Suptitle>
+							<Title>{translate("title")}</Title>
+							<Subtitle>{parse(parsedSubtitle)}</Subtitle>
+						</MainHeader>
+						<Card
+							text={translate("card_1")}
+							background="/images/opportunities_card_1.png"
 						/>
-						<OpportunitiesHatImage className="hat">
-							<Image
-								src="/images/opportunities_hat_image.png"
-								width={200}
-								height={140}
-								quality={100}
+					</MainTop>
+
+					<MainBottom>
+						<CardsWrapper>
+							<Card
+								text={translate("card_2")}
+								background="/images/opportunities_card_2.png"
 							/>
-						</OpportunitiesHatImage>
-					</OpportunitiesImage>
+							<Card
+								text={translate("card_3")}
+								background="/images/opportunities_card_3.png"
+							/>
+							<Card
+								text={translate("card_4")}
+								background="/images/opportunities_card_4.png"
+							/>
+						</CardsWrapper>
+					</MainBottom>
 				</Content>
 			</Container>
 		</StyledOpportunities>

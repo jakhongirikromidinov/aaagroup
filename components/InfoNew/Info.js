@@ -37,7 +37,9 @@ const InfoNew = () => {
 		<StyledInfo>
 			<Container>
 				<Content>
-					<SupTitle>{t("info:label")}</SupTitle>
+					<SupTitle>
+					{t("info:label")}
+					</SupTitle>
 					<Title>{t("info:title")}</Title>
 					<Left>
 						{data === 0 && (

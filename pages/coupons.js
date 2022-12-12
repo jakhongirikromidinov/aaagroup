@@ -11,7 +11,20 @@ const Coupons = () => {
 export async function getStaticProps({ locale }) {
 	return {
 		props: {
-			...(await serverSideTranslations(locale, ["common", "banner", "footer"])),
+			...(await serverSideTranslations(locale, [
+				"common",
+				"banner",
+				"services",
+				"experience",
+				"about",
+				"info",
+				"slider",
+				"opportunities",
+				"prices",
+				"footer",
+				"coupon",
+				"choice",
+			])),
 		},
 	};
 }

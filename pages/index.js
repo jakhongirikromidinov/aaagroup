@@ -8,19 +8,20 @@ import Info from "../components/Info/Info";
 import Opportunities from "../components/Opportunities/Opportunities";
 import Choice from "../components/Choice/Choice";
 import InfoNew from "../components/InfoNew/Info";
+import Hotels from "../components/Hotels/Hotels";
 
 export default function Home() {
 	return (
-		<>
+		<Layout>
 			<Banner />
 			<Services />
 			<Experience />
 			<About />
-			{/* <Info /> */}
 			<InfoNew />
-			{/* <Opportunities /> */}
+			<Opportunities />
 			<Choice />
-		</>
+			<Hotels />
+		</Layout>
 	);
 }
 export async function getStaticProps({ locale }) {
@@ -39,6 +40,7 @@ export async function getStaticProps({ locale }) {
 				"footer",
 				"coupon",
 				"choice",
+				"hotels",
 			])),
 		},
 	};

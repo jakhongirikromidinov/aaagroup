@@ -1,21 +1,28 @@
 import styled from "styled-components";
 
-const StyledChoice = styled.section``;
+const StyledChoice = styled.section`
+	background: var(--bgColor);
+`;
+
+export const SectionHeader = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+`;
 
 export const Content = styled.div`
 	display: flex;
 	padding-top: 5rem;
-	padding-bottom: 7rem;
+	padding-bottom: 5rem;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	@media screen and (max-width: 1085px) {
 		flex-direction: column;
 	}
 `;
 
 export const Left = styled.div`
-	width: 50%;
 	@media screen and (max-width: 1085px) {
 		width: 100%;
 	}
@@ -46,7 +53,6 @@ export const SupTitle = styled.label`
 
 export const Title = styled.div`
 	width: 100%;
-	text-align: center;
 	font-size: 3.2rem;
 	font-weight: 600;
 `;

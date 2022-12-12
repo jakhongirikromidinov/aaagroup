@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const StyledInfo = styled.section`
+	background: var(--bgColor);
 	position: relative;
 	@media screen and (max-width: 1000px) {
 		padding-top: 5rem 0;
@@ -10,7 +11,6 @@ const StyledInfo = styled.section`
 export const Content = styled.div`
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	flex-wrap: wrap;
 	@media screen and (max-width: 1000px) {
 		padding-top: 5rem;
@@ -35,7 +35,6 @@ export const SupTitle = styled.label`
 
 export const Title = styled.h2`
 	width: 100%;
-	text-align: center;
 	font-size: 3.2rem;
 	font-weight: 600;
 `;
