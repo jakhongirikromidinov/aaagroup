@@ -1,13 +1,13 @@
 {
-    "title": "Saytga kirish",
-    "phone": "Тel. raqamingiz",
-    "password": "Parol",
+	"title": "Saytga kirish",
+	"phone": "Тel. raqamingiz",
+	"password": "Parol",
 
-    "question": "Akkauntingiz yoʻqmi?",
-    "link": "Akkaunt oching",
+	"question": "Akkauntingiz yoʻqmi?",
+	"link": "Akkaunt oching",
 
-    "login": "Kirish",
+	"login": "Kirish",
 
-    "message": "Sayt havolasini ulashing va maxsus chegirmalarga ega bo‘ling!",
-    "more": "Chegirma haqida batafsil ma‘lumot"
+	"message": "Sayt havolasini ulashing va maxsus chegirmalarga ega bo‘ling!",
+	"more": "Chegirma haqida batafsil ma'lumot"
 }

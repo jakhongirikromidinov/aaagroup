@@ -4,11 +4,7 @@ import { Layout } from "../components/Common/Common";
 import Login from "../components/LoginPage/Login/Login";
 
 const Coupons = () => {
-	return (
-		<Layout>
-			<Login />
-		</Layout>
-	);
+	return <Layout>{/* <Login /> */}</Layout>;
 };
 export async function getStaticProps({ locale }) {
 	return {
