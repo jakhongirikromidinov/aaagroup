@@ -2,18 +2,23 @@ import styled from "styled-components";
 
 const StyledChoice = styled.section`
 	background: var(--bgColor);
+	padding: 10rem 0;
+	@media screen and (max-width: 1000px) {
+		padding: 5rem 0;
+	}
 `;
 
 export const SectionHeader = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	@media screen and (max-width: 1000px) {
+		align-items: center;
+	}
 `;
 
 export const Content = styled.div`
 	display: flex;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
@@ -55,6 +60,9 @@ export const Title = styled.div`
 	width: 100%;
 	font-size: 3.2rem;
 	font-weight: 600;
+	@media screen and (max-width: 1000px) {
+		text-align: center;
+	}
 `;
 
 export default StyledChoice;

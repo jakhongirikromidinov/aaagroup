@@ -31,6 +31,7 @@ const About = () => {
 							width={500}
 							height={548}
 							quality={100}
+							alt="A pretty family"
 						/>
 					</AboutImage>
 				</Content>

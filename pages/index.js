@@ -4,7 +4,6 @@ import Banner from "../components/Banner/Banner";
 import Services from "../components/Services/Services";
 import Experience from "../components/Experience/Experience";
 import About from "../components/About/About";
-import Info from "../components/Info/Info";
 import Opportunities from "../components/Opportunities/Opportunities";
 import Choice from "../components/Choice/Choice";
 import InfoNew from "../components/InfoNew/Info";
@@ -12,7 +11,7 @@ import Hotels from "../components/Hotels/Hotels";
 
 export default function Home() {
 	return (
-		<Layout>
+		<Layout footer>
 			<Banner />
 			<Services />
 			<Experience />

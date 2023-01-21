@@ -42,11 +42,11 @@ const Hotels = () => {
 								aliquam esse?
 							</p>
 						</Text>
-						<Button>
-							<Link href="/hotels">
+						<Link legacyBehavior href="/hotels">
+							<Button role={"button"}>
 								{translate("button")} <ButtonArrow />
-							</Link>
-						</Button>
+							</Button>
+						</Link>
 					</Main>
 
 					<Images>
@@ -56,12 +56,14 @@ const Hotels = () => {
 								height={229}
 								src="/images/hotels_image_1.png"
 								quality={100}
+								alt="Hotel sign image"
 							/>
 							<Image
 								width={184}
 								height={229}
 								src="/images/hotels_image_3.png"
 								quality={100}
+								alt="Hotel pillows image"
 							/>
 						</ImagesBig>
 						<ImagesSmall>
@@ -70,6 +72,7 @@ const Hotels = () => {
 								height={203}
 								src="/images/hotels_image_2.png"
 								quality={100}
+								alt="Hotel reception image"
 							/>
 
 							<Image
@@ -77,6 +80,7 @@ const Hotels = () => {
 								height={203}
 								src="/images/hotels_image_4.png"
 								quality={100}
+								alt="Hotel sign image"
 							/>
 						</ImagesSmall>
 					</Images>

@@ -30,7 +30,7 @@ const Services = () => {
 								<Image
 									src="/images/services_icon_1.png"
 									fill
-									alt="icon"
+									alt="icon - 1"
 									quality={100}
 								/>
 							</ImageWrapper>
@@ -44,7 +44,7 @@ const Services = () => {
 								<Image
 									src="/images/services_icon_2.png"
 									fill
-									alt="icon"
+									alt="icon - 2"
 									quality={100}
 								/>
 							</ImageWrapper>
@@ -56,7 +56,7 @@ const Services = () => {
 								<Image
 									src="/images/services_icon_3.png"
 									fill
-									alt="icon"
+									alt="icon - 3"
 									quality={100}
 								/>
 							</ImageWrapper>

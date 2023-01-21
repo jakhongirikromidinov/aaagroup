@@ -1,14 +1,5 @@
 {
-    "supTitle": "Find out before you set out",
+    "supTitle": "We are a cool travel company",
     "title": "Travel Company <span></span> “AAA-Group”",
-    "subtitle": "We always provide our customers with the greatest possible number of options for travel",
-
-    "LocationLabel": "Location",
-    "LocationAddress": "Where you want to travel?",
-
-    "DateLabel": "Date",
-    
-    "GuestLabel": "Guests"
-
-    
+    "subtitle": "We always provide our customers with the greatest possible number of options for travel"
 }

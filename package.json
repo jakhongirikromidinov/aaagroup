@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "formik": "^2.2.9",
     "hamburger-react": "^2.5.0",
     "html-react-parser": "^3.0.4",
     "lightgallery": "^2.7.0",

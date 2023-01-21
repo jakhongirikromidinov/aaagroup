@@ -2,12 +2,12 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import { DotsWrapper } from "./Common.styled";
 
-export const Layout = ({ children }) => {
+export const Layout = ({ children, footer }) => {
 	return (
 		<>
 			<Header />
 			<main>{children}</main>
-			<Footer id="footer"/>
+			<Footer id="footer" footer={footer} />
 		</>
 	);
 };

@@ -1,0 +1,9 @@
+{
+    "name": "Name",
+    "phone_number": "Phone number",
+    "email": "E-mail",
+    "password": "Password",
+    "voucher": "Voucher type",
+
+    "required": "This field is required"
+}

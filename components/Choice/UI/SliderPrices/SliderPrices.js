@@ -29,9 +29,9 @@ const SliderPrices = () => {
 				<Swiper
 					modules={[Autoplay, Pagination]}
 					className="mySwiper"
-					// direction={"vertical"}
-					// autoplay={{ delay: 3500, disableOnInteraction: false }}
 					loop={true}
+					speed={400}
+					autoplay={{ delay: 3500, disableOnInteraction: false }}
 					centeredSlides={true}
 					initialSlide={1}
 					slidesPerView={1}
@@ -46,11 +46,10 @@ const SliderPrices = () => {
 									width={473.2}
 									height={202.16}
 									priority
+									quality={100}
+									alt="Hyundai Van"
 								/>
 							</ImageWrapper>
-							{console.log(
-								translate("choice:car_choice_buttons", { returnObjects: true })
-							)}
 						</SwiperSlideItem>
 					</SwiperSlide>
 					<SwiperSlide>
@@ -61,6 +60,8 @@ const SliderPrices = () => {
 									width={452.48}
 									height={225.92}
 									priority
+									quality={100}
+									alt="Ford Van"
 								/>
 							</ImageWrapper>
 						</SwiperSlideItem>
@@ -73,6 +74,8 @@ const SliderPrices = () => {
 									width={473.2}
 									height={218.4}
 									priority
+									quality={100}
+									alt="Istana Van"
 								/>
 							</ImageWrapper>
 						</SwiperSlideItem>
@@ -84,8 +87,9 @@ const SliderPrices = () => {
 									src="/images/bus.png"
 									width={744.96}
 									height={222.208}
-									quality={100}
 									priority
+									quality={100}
+									alt="Bus Van"
 								/>
 							</ImageWrapper>
 						</SwiperSlideItem>

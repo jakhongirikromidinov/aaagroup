@@ -3,6 +3,8 @@ import styled from "styled-components";
 const StyledFooter = styled.footer`
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	z-index: 1;
+	background: #f5f5f5;
+	display: ${({ footer }) => (footer ? "block" : "none")};
 `;
 
 export const Content = styled.div`

@@ -22,42 +22,77 @@ const Gallery = () => {
 			<Container>
 				<LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
 					<a href="/images/hotels_1.png" data-lg-size="800-600">
-						<img src="/images/hotels_1.png" alt="" className="big" />
+						<picture>
+							<source srcSet="/images/hotels_1.png" type="image/webp" />
+							<img src="/images/hotels_1.png" alt="" className="big" />
+						</picture>
 					</a>
-					<a href="/images/hotel_2.png" data-lg-size="450-600">
-						<img src="/images/hotel_2.png" className="small" />
+					<a href="/images/hotels_2.png" data-lg-size="450-600">
+						<picture>
+							<source srcSet="/images/hotel_2.png" type="image/webp" />
+							<img src="/images/hotel_2.png" alt="" className="small" />
+						</picture>
 					</a>
 					<a href="/images/hotels_4.png" data-lg-size="800-600">
-						<img src="/images/hotels_4.png" className="big" />
+						<picture>
+							<source srcSet="/images/hotels_4.png" type="image/webp" />
+							<img src="/images/hotels_4.png" alt="" className="big" />
+						</picture>
 					</a>
 					<a href="/images/hotels_3.png" data-lg-size="450-600">
-						<img src="/images/hotels_3.png" className="small" />
+						<picture>
+							<source srcSet="/images/hotels_3.png" type="image/webp" />
+							<img src="/images/hotels_3.png" alt="" className="small" />
+						</picture>
 					</a>
-
-					<a href="/images/hotels_6.png" data-lg-size="450-600">
-						<img src="/images/hotels_6.png" className="small" />
+					<a href="/images/hotels_6.png" data-lg-size="800-600">
+						<picture>
+							<source srcSet="/images/hotels_6.png" type="image/webp" />
+							<img src="/images/hotels_6.png" alt="" className="small" />
+						</picture>
 					</a>
 					<a href="/images/hotels_5.png" data-lg-size="800-600">
-						<img src="/images/hotels_5.png" className="big" />
+						<picture>
+							<source srcSet="/images/hotels_5.png" type="image/webp" />
+							<img src="/images/hotels_5.png" alt="" className="big" />
+						</picture>
 					</a>
 					<a href="/images/hotels_7.png" data-lg-size="450-600">
-						<img src="/images/hotels_7.png" className="small" />
+						<picture>
+							<source srcSet="/images/hotels_7.png" type="image/webp" />
+							<img src="/images/hotels_7.png" alt="" className="small" />
+						</picture>
 					</a>
 					<a href="/images/hotels_8.png" data-lg-size="800-600">
-						<img src="/images/hotels_8.png" className="big" />
+						<picture>
+							<source srcSet="/images/hotels_8.png" type="image/webp" />
+							<img src="/images/hotels_8.png" alt="" className="big" />
+						</picture>
 					</a>
-					<a href="/images/hotels_10.png" data-lg-size="800-600">
-						<img src="/images/hotels_10.png" className="big" />
+					<a href="/images/hotels_9.png" data-lg-size="800-600">
+						<picture>
+							<source srcSet="/images/hotels_9.png" type="image/webp" />
+							<img src="/images/hotels_9.png" alt="" className="big" />
+						</picture>
 					</a>
-					<a href="/images/hotels_9.png" data-lg-size="450-600">
-						<img src="/images/hotels_9.png" className="small" />
+					<a href="/images/hotels_10.png" data-lg-size="450-600">
+						<picture>
+							<source srcSet="/images/hotels_10.png" type="image/webp" />
+							<img src="/images/hotels_10.png" alt="" className="small" />
+						</picture>
 					</a>
-					<a href="/images/hotels_12.png" data-lg-size="800-600">
-						<img src="/images/hotels_12.png" className="big" />
+					<a href="/images/hotels_11.png" data-lg-size="800-600">
+						<picture>
+							<source srcSet="/images/hotels_11.png" type="image/webp" />
+							<img src="/images/hotels_11.png" alt="" className="big" />
+						</picture>
 					</a>
 
-					<a href="/images/hotels_11.png" data-lg-size="450-600">
-						<img src="/images/hotels_11.png" className="small" />
+					<a href="/images/hotels_12.png" data-lg-size="450-600">
+						<picture>
+							<source srcSet="/images/hotels_11.png" type="image/webp" />
+							<img src="/images/hotels_12.png" alt="" className="small" />
+						</picture>
 					</a>
 				</LightGallery>
 			</Container>

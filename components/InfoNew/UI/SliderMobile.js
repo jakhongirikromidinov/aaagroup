@@ -68,6 +68,7 @@ const SliderMobile = ({}) => {
 												src="/images/slider_mobile_samarkand_1.jpg"
 												layout="fill"
 												quality={100}
+												alt="Shakhi Zinda complex"
 											/>
 										</ImageWrapper>
 										<ImageWrapper className="image_wrapper">
@@ -75,6 +76,7 @@ const SliderMobile = ({}) => {
 												src="/images/slider_mobile_samarkand_2.jpg"
 												layout="fill"
 												quality={100}
+												alt="Shakhi Zinda complex"
 											/>
 										</ImageWrapper>
 									</Images>
@@ -92,6 +94,7 @@ const SliderMobile = ({}) => {
 												src="/images/tours_mobile_sukak.jpg"
 												layout="fill"
 												quality={100}
+												alt="Sukak hills"
 											/>
 										</ImageWrapper>
 										<ImageWrapper className="image_wrapper">
@@ -99,6 +102,7 @@ const SliderMobile = ({}) => {
 												src="/images/tours_mobile_kumushkan.jpg"
 												layout="fill"
 												quality={100}
+												alt="Kumushkan image"
 											/>
 										</ImageWrapper>
 									</Images>
@@ -117,6 +121,7 @@ const SliderMobile = ({}) => {
 												src="/images/tours_mobile_registan.jpg"
 												layout="fill"
 												quality={100}
+												alt="Registan complex"
 											/>
 										</ImageWrapper>
 										<ImageWrapper className="image_wrapper">
@@ -124,6 +129,7 @@ const SliderMobile = ({}) => {
 												src="/images/tours_mobile_observatory.jpg"
 												layout="fill"
 												quality={100}
+												alt="Ulugbek observatory"
 											/>
 										</ImageWrapper>
 									</Images>
@@ -138,6 +144,7 @@ const SliderMobile = ({}) => {
 												src="/images/tours_mobile_bukhara_ark.jpg"
 												layout="fill"
 												quality={100}
+												alt="Bukhara Ark"
 											/>
 										</ImageWrapper>
 										<ImageWrapper className="image_wrapper">
@@ -145,6 +152,7 @@ const SliderMobile = ({}) => {
 												src="/images/tours_mobile_lyabi_khaus.jpg"
 												layout="fill"
 												quality={100}
+												alt="Lyabi Khaus complex"
 											/>
 										</ImageWrapper>
 									</Images>
@@ -158,6 +166,7 @@ const SliderMobile = ({}) => {
 												src="/images/tours_mobile_sitorai.jpg"
 												layout="fill"
 												quality={100}
+												alt="Sitorai Mokhi Khosa residence"
 											/>
 										</ImageWrapper>
 									</Images>

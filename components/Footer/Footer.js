@@ -21,14 +21,22 @@ import Link from "next/link";
 
 import { useTranslation } from "next-i18next";
 
-const Footer = () => {
+const Footer = ({ footer }) => {
 	const { t } = useTranslation();
 	return (
-		<StyledFooter>
+		<StyledFooter footer={footer}>
 			<Container>
 				<Content>
 					<Main>
-						<Image src="/images/footer_logo.png" width={242} height={54} />
+						<Link href="/">
+							<Image
+								src="/images/footer_logo.png"
+								width={242}
+								height={54}
+								alt="logo img"
+								quality={100}
+							/>
+						</Link>
 						<MainDescr>{t("footer:main_descr")}</MainDescr>
 					</Main>
 
@@ -67,6 +75,8 @@ const Footer = () => {
 							src="/images/footer_plane_image.png"
 							width={207}
 							height={141}
+							quality={100}
+							alt="Plane image"
 						/>
 					</FooterImage>
 

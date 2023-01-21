@@ -19,7 +19,7 @@ import { NavbarPhoneLogo } from "./Navbar.styled";
 
 import Sidebar from "./UI/Sidebar";
 
-import { Slant as Hamburger } from "hamburger-react";
+import { Spin as Hamburger } from "hamburger-react";
 
 const Navbar = () => {
 	const { t } = useTranslation();
@@ -43,22 +43,27 @@ const Navbar = () => {
 			<Container>
 				<Content>
 					<NavbarLogo>
-						<Image
-							src="/images/navbar_logo.png"
-							layout="fill"
-							priority
-							quality={100}
-						/>
+						<Link href="/">
+							<Image
+								alt="Logo img"
+								src="/images/navbar_logo.png"
+								layout="fill"
+								priority
+								quality={100}
+							/>
+						</Link>
 					</NavbarLogo>
 					<NavbarList>
-						{t("common:navbarList", { returnObjects: true }).map((item, index) => (
-							<li
-								key={index}
-								className={router.pathname === item.link ? "bold" : ""}
-							>
-								<Link href={item.link}>{item.title}</Link>
-							</li>
-						))}
+						{t("common:navbarList", { returnObjects: true }).map(
+							(item, index) => (
+								<li
+									key={index}
+									className={router.pathname === item.link ? "bold" : ""}
+								>
+									<Link href={item.link}>{item.title}</Link>
+								</li>
+							)
+						)}
 					</NavbarList>
 					<NavbarPhone href="tel:+998901765511">
 						<NavbarPhoneLogo />
@@ -84,11 +89,7 @@ const Navbar = () => {
 					</NavbarLang>
 
 					<NavbarBurger>
-						<Hamburger
-							toggle={setIsOpen}
-							toggled={isOpen}
-							color="black"
-						/>
+						<Hamburger toggle={setIsOpen} toggled={isOpen} color="black" />
 					</NavbarBurger>
 
 					<Sidebar isOpen={isOpen} toggle={toggle} />

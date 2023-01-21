@@ -29,10 +29,16 @@ export const SwiperWrapper = styled.div`
 			scale: unset;
 		}
 	}
+	@media screen and (max-width: 1000px) {
+		height: unset;
+	}
+	@media screen and (max-width: 500px) {
+		padding-top: 2rem;
+	}
 `;
 
 export const SwiperSlideItem = styled.div`
-	padding: 2rem;
+	padding: 0 2rem;
 `;
 export const ImageWrapper = styled.div`
 	width: 393px;

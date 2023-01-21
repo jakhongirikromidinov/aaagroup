@@ -41,7 +41,8 @@ export default function Slider({ getData }) {
 				<SwiperSlide>
 					<ImageWrapper className="image_wrapper">
 						<Image
-							src="/images/slider_city_4.png"
+							alt="Samarkand Registan square"
+							src="/images/slider_samarkand.png"
 							layout="fill"
 							quality={100}
 						/>
@@ -50,7 +51,8 @@ export default function Slider({ getData }) {
 				<SwiperSlide>
 					<ImageWrapper className="image_wrapper">
 						<Image
-							src="/images/slider_city_2.png"
+							alt="Tashkent Yunusabad Business center"
+							src="/images/slider_tashkent.png"
 							layout="fill"
 							quality={100}
 						/>
@@ -59,7 +61,8 @@ export default function Slider({ getData }) {
 				<SwiperSlide>
 					<ImageWrapper className="image_wrapper">
 						<Image
-							src="/images/slider_city_3.png"
+							alt="Bukhara Kalta Minor"
+							src="/images/slider_bukhara.png"
 							layout="fill"
 							quality={100}
 						/>

@@ -7,6 +7,8 @@ import StyledSidebar, {
 	SidebarLang,
 } from "./Sidebar.styled";
 
+import Image from "next/legacy/image";
+
 import { NavbarPhone, NavbarPhoneLogo } from "../Navbar.styled";
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -26,9 +28,9 @@ const Sidebar = ({ isOpen, toggle }) => {
 						</li>
 					)
 				)}
-				<li>
+				<li className="phone">
 					<SidebarPhone href="tel:+998901765511" onClick={toggle}>
-						<NavbarPhoneLogo sidebar />
+						<Image src="/images/phone_icon.png" width={18} height={18} />
 						+998 90 176-55-11
 					</SidebarPhone>
 				</li>

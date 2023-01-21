@@ -4,7 +4,7 @@ const StyledInfo = styled.section`
 	background: var(--bgColor);
 	position: relative;
 	@media screen and (max-width: 1000px) {
-		padding-top: 5rem 0;
+		padding: 5rem 0;
 	}
 `;
 
@@ -13,7 +13,7 @@ export const Content = styled.div`
 	align-items: center;
 	flex-wrap: wrap;
 	@media screen and (max-width: 1000px) {
-		padding-top: 5rem;
+		justify-content: center;
 	}
 `;
 
@@ -37,6 +37,10 @@ export const Title = styled.h2`
 	width: 100%;
 	font-size: 3.2rem;
 	font-weight: 600;
+	@media screen and (max-width: 1000px) {
+		text-align: center;
+		margin-bottom: 2rem;
+	}
 `;
 
 export const Left = styled.div`

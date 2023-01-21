@@ -43,17 +43,24 @@ export const Text = styled.div`
 	}
 `;
 
-export const Button = styled.button`
-	display: block;
+export const Button = styled.a`
+	display: inline-block;
+	cursor: pointer;
 	font-size: 1.8rem;
 	padding: 0.55em 2.1em;
 	background: var(--accent);
 	color: #ffff;
 	border-radius: 2.4rem;
+	transition: 0.3s ease-in-out;
 	a {
 		display: flex;
 		align-items: center;
 		gap: 1rem;
+	}
+	:hover {
+		outline: 1px solid var(--accent);
+		background-color: transparent;
+		color: var(--accent);
 	}
 	@media screen and (max-width: 700px) {
 		margin: 0 auto;

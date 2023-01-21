@@ -7,7 +7,7 @@ import { Layout } from "../components/Common/Common";
 
 const Hotels = () => {
 	return (
-		<Layout>
+		<Layout footer>
 			<Gallery />
 		</Layout>
 	);

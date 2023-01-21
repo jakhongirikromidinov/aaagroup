@@ -32,6 +32,7 @@ const Experience = () => {
 					<ExperienceImage>
 						<ImageWrapper>
 							<Image
+								alt="A woman with a map"
 								src="/images/experience_image.png"
 								width={500}
 								height={529}
@@ -73,6 +74,7 @@ const Experience = () => {
 					<ExperienceImage>
 						<ImageWrapper>
 							<Image
+								alt="A woman with a map"
 								src="/images/experience_image.png"
 								width={500}
 								height={529}

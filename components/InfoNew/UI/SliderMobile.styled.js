@@ -3,7 +3,6 @@ import styled from "styled-components";
 const StyledMobileSlider = styled.section`
 	position: relative;
 	overflow: hidden;
-	padding: 5rem 0;
 	@media screen and (min-width: 700px) {
 		display: none;
 	}

@@ -3,6 +3,9 @@ import styled from "styled-components";
 const StyledOpportunities = styled.section`
 	padding: 10rem 0;
 	background: var(--bgColor);
+	@media screen and (max-width: 1000px) {
+		padding: 5rem 0;
+	}
 `;
 
 export const Content = styled.div`
