@@ -1,5 +1,4 @@
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Banner from "../components/Banner/Banner";
 import { Layout } from "../components/Common/Common";
 import Login from "../components/LoginPage/Login/Login";
 

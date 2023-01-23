@@ -8,13 +8,9 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				{router.locale === "ru" && (
-					<title>Туристичская компания AAA-Group</title>
-				)}
-				{router.locale === "uz" && (
-					<title>AAA-Group Sayyohlik kompaniyasi</title>
-				)}
-				{router.locale === "en" && <title>AAA-Group Travel Company</title>}
+				{router.locale === "ru" && <title>Панель управления</title>}
+				{router.locale === "uz" && <title>Boshqarish paneli</title>}
+				{router.locale === "en" && <title>Control panel</title>}
 			</Head>
 			<Component {...pageProps} />
 			<GlobalStyle />

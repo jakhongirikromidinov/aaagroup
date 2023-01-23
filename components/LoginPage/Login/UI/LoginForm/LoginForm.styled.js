@@ -6,6 +6,7 @@ export const Content = styled.div`
 	form {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 		gap: 1rem;
 		label {
 			font-weight: 600;

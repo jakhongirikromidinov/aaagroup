@@ -1,0 +1,6 @@
+{
+	"navbarList": [
+		{ "title": "Главная", "link": "/" },
+		{ "title": "Наши Отели", "link": "/hotels" }
+	]
+}
