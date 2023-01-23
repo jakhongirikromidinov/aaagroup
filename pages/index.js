@@ -1,46 +1,20 @@
-import { Layout } from "../components/Common/Common";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Banner from "../components/Banner/Banner";
-import Services from "../components/Services/Services";
-import Experience from "../components/Experience/Experience";
-import About from "../components/About/About";
-import Opportunities from "../components/Opportunities/Opportunities";
-import Choice from "../components/Choice/Choice";
-import InfoNew from "../components/InfoNew/Info";
-import Hotels from "../components/Hotels/Hotels";
+import { Layout } from "../components/Common/Common";
+import Login from "../components/LoginPage/Login/Login";
 
-export default function Home() {
+const Home = () => {
 	return (
-		<Layout footer>
-			<Banner />
-			<Services />
-			<Experience />
-			<About />
-			<InfoNew />
-			<Opportunities />
-			<Choice />
-			<Hotels />
-		</Layout>
+		<>
+			<Login />
+		</>
 	);
-}
+};
 export async function getStaticProps({ locale }) {
 	return {
 		props: {
-			...(await serverSideTranslations(locale, [
-				"common",
-				"banner",
-				"services",
-				"experience",
-				"about",
-				"info",
-				"slider",
-				"opportunities",
-				"prices",
-				"footer",
-				"coupon",
-				"choice",
-				"hotels",
-			])),
+			...(await serverSideTranslations(locale, ["login"])),
 		},
 	};
 }
+export default Home;
